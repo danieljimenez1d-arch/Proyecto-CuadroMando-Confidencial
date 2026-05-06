@@ -20,8 +20,7 @@ El dashboard estaba dirigido a perfiles de negocio que requerían una visión cl
 y actualizada de los principales indicadores del área, reduciendo la dependencia
 de análisis manuales.
 6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
-https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL21hcGZyZWNvcnAuc2hhcmVwb2ludC5jb20vOmZsOi9yL2NvbnRlbnRzdG9yYWdlL3g4… 1/5
-🎯Objetivos
+
 • Centralizar información procedente de distintos orígenes de datos
 • Facilitar el seguimiento de indicadores clave (KPIs)
 • Permitir análisis temporal y comparativo
@@ -43,7 +42,7 @@ Principales tareas realizadas:
 Estas acciones permitieron optimizar el rendimiento y facilitar la creación de
 métricas en DAX.
 6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
-https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL21hcGZyZWNvcnAuc2hhcmVwb2ludC5jb20vOmZsOi9yL2NvbnRlbnRzdG9yYWdlL3g4… 2/5
+
 🧩Modelo de datos
 Se diseñó un modelo en estrella, compuesto por:
 • Una tabla de hechos principal
@@ -65,7 +64,7 @@ Ejemplo de medida genérica:
 Las medidas se diseñaron priorizando claridad, reutilización y eficiencia.
 DAX
 6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
-https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL21hcGZyZWNvcnAuc2hhcmVwb2ludC5jb20vOmZsOi9yL2NvbnRlbnRzdG9yYWdlL3g4… 3/5
+
 🖥️Diseño del dashboard y experiencia de usuario
 El informe se estructuró en varias páginas temáticas, incorporando:
 • KPIs visibles en la parte superior
@@ -88,8 +87,7 @@ Aprendizajes
 Posibles mejoras
 • Implementación de Row-Level Security (RLS)
 6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
-https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL21hcGZyZWNvcnAuc2hhcmVwb2ludC5jb20vOmZsOi9yL2NvbnRlbnRzdG9yYWdlL3g4… 4/5
-• Optimización adicional del rendimiento del modelo
+
 • Automatización de los procesos de actualización
 ✅Competencias demostradas
 • Power BI
