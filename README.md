@@ -1,101 +1,79 @@
-Proyecto Power BI – README
-Profesional (Proceso
-Confidencial)
-Proyecto Power BI – Análisis y
-Visualización de Datos (Proceso
-Confidencial)
-📊
-Aviso de confidencialidad
-Este proyecto ha sido desarrollado en un entorno profesional con
-información sensible. Por este motivo, no se incluyen datos reales, capturas
-del informe ni archivos .pbix.
-El propósito de este README es documentar el proceso de trabajo, las
-decisiones técnicas y las competencias adquiridas, respetando en todo
-momento la confidencialidad.
-🧠Contexto
-Proyecto desarrollado durante unas prácticas profesionales, orientado a la
-construcción de cuadros de mando en Power BI para apoyar la toma de
-decisiones en un entorno empresarial real.
-El dashboard estaba dirigido a perfiles de negocio que requerían una visión clara
-y actualizada de los principales indicadores del área, reduciendo la dependencia
-de análisis manuales.
-6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
 
-• Centralizar información procedente de distintos orígenes de datos
-• Facilitar el seguimiento de indicadores clave (KPIs)
-• Permitir análisis temporal y comparativo
-• Mejorar la accesibilidad y comprensión de la información para usuarios no
-técnicos
-🗂️Fuentes de datos
-Los datos procedían de sistemas corporativos internos, combinando:
-• Datos transaccionales estructurados
-• Ficheros auxiliares utilizados como tablas de dimensión
-La carga y transformación de los datos se realizó mediante Power Query,
-asegurando consistencia y calidad en el modelo final.
-🔄Preparación y transformación de datos
-Principales tareas realizadas:
-• Limpieza de valores nulos y registros inconsistentes
-• Eliminación de duplicados
-• Normalización de entidades clave (clientes, productos, fechas)
-• Creación de una tabla calendario personalizada para el análisis temporal
-• Tipado correcto de campos y reducción de columnas innecesarias
-Estas acciones permitieron optimizar el rendimiento y facilitar la creación de
-métricas en DAX.
-6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
+📊 Power BI Portfolio
+Este repositorio recoge un proyecto de Business Intelligence desarrollado en Power BI, documentado con un enfoque profesional y orientado a proceso. El objetivo de este portfolio es explicar cómo se abordó el proyecto, qué decisiones se tomaron y qué conocimientos se aplicaron a lo largo de su desarrollo.
+El proyecto está basado en un entorno real, pero por motivos de confidencialidad no se incluyen datos, capturas del informe ni archivos .pbix. La documentación se centra en el método de trabajo y el razonamiento técnico, no en los datos en sí.
 
-🧩Modelo de datos
-Se diseñó un modelo en estrella, compuesto por:
-• Una tabla de hechos principal
-• Varias tablas de dimensiones relacionadas
-Criterios aplicados en el modelado:
-• Relaciones 1:N claras y coherentes
-• Control de la direccionalidad de los filtros
-• Separación entre hechos y dimensiones
-• Modelo orientado a escalabilidad y mantenimiento
-📐Métricas y lógica DAX
-Se desarrollaron medidas DAX orientadas a métricas de negocio, entre ellas:
-• Métricas agregadas principales
-• Indicadores de rentabilidad
-• Comparativas temporales (interanuales y por periodos)
-• KPIs para seguimiento ejecutivo
-Ejemplo de medida genérica:
-1 Ventas Totales = SUM(FactTabla[Importe])
-2
-Las medidas se diseñaron priorizando claridad, reutilización y eficiencia.
+
+🧠 Contexto del proyecto
+El proyecto consistió en el desarrollo de un cuadro de mando en Power BI orientado al análisis de información empresarial y al apoyo a la toma de decisiones.
+La información procedía de distintos sistemas, por lo que fue necesario realizar un proceso completo de integración, transformación y modelado antes de poder construir las visualizaciones finales. El dashboard estaba dirigido a usuarios de negocio que necesitaban una visión clara y estructurada de los indicadores clave.
+
+
+🎯 Objetivo
+El objetivo principal del proyecto fue construir un dashboard que permitiera:
+
+Centralizar la información en un único informe
+
+Visualizar los principales indicadores clave (KPIs)
+Analizar la evolución de los datos en el tiempo
+Reducir la dependencia de informes manuales en Excel
+
+
+🗂️ Datos utilizados
+Los datos procedían de fuentes internas, como tablas estructuradas y ficheros auxiliares. Todo el proceso de carga y transformación se realizó mediante Power Query.
+Aunque no se muestran los datos reales, el trabajo incluyó tareas habituales en proyectos de BI, como:
+
+Limpieza de valores nulos
+Eliminación de duplicados
+Ajuste de tipos de datos
+Preparación de dimensiones (fechas, productos, clientes, etc.)
+
+
+🔄 Preparación y modelo de datos
+Una parte clave del proyecto fue el modelado de datos. Se diseñó un modelo en estrella, con una tabla de hechos principal y varias tablas de dimensiones, lo que facilita el análisis y mejora el rendimiento del informe.
+Además, se creó una tabla calendario personalizada para permitir el análisis temporal y las comparaciones entre periodos.
+
+
+📐 Métricas y DAX
+Se desarrollaron distintas medidas utilizando DAX, enfocadas a medir aspectos relevantes del negocio, como:
+
+Métricas agregadas principales
+Indicadores de rentabilidad
+Comparativas entre periodos
+Ejemplo de una medida utilizada:
+
+Ventas Totales = SUM(FactTabla[Importe])
+
+
+Este proyecto permitió consolidar el uso de DAX y comprender mejor la importancia del contexto de evaluación en Power BI.
+
+
+📊 Diseño del dashboard
+El dashboard se diseñó pensando en usuarios no técnicos, priorizando la claridad y facilidad de uso. El informe incluía:
+
+KPIs visibles de un vistazo
+Gráficos para el análisis de tendencias
+Segmentadores para filtrar la información
+Navegación sencilla entre páginas
+
+
+📈 Resultados y aprendizajes
+El proyecto permitió aplicar de forma práctica conocimientos de visualización de datos, modelado y análisis, así como comprender cómo se utilizan los dashboards en un entorno profesional real.
+A nivel técnico, se reforzaron competencias en:
+
+Power BI
+Power Query
 DAX
-6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
+Diseño de cuadros de mando
+Enfoque analítico orientado a negocio
 
-🖥️Diseño del dashboard y experiencia de usuario
-El informe se estructuró en varias páginas temáticas, incorporando:
-• KPIs visibles en la parte superior
-• Visualizaciones comparativas y evolutivas
-• Segmentadores para filtrado dinámico
-• Navegación mediante botones
-El diseño estuvo orientado a un usuario no técnico, priorizando la claridad visual,
-coherencia y usabilidad.
-📈Impacto del proyecto
-El dashboard permitió:
-• Mejorar la visibilidad de los indicadores clave
-• Reducir el tiempo dedicado al análisis manual
-• Facilitar la toma de decisiones basada en datos
-📚Aprendizajes y mejoras
-Aprendizajes
-• Modelado de datos en estrella en Power BI
-• Uso avanzado de Power Query para la preparación de datos
-• Desarrollo de medidas DAX orientadas a negocio
-• Diseño de dashboards centrados en el usuario
-Posibles mejoras
-• Implementación de Row-Level Security (RLS)
-6/5/26, 12:54 Proyecto Power BI – README Profesional (Proceso Confidencial)
 
-• Automatización de los procesos de actualización
-✅Competencias demostradas
-• Power BI
-• Modelado de datos
-• DAX
-• Power Query
-• Análisis de negocio
-• Visualización de datos
-Este README forma parte de un portfolio profesional y tiene como objetivo
-demostrar experiencia técnica y metodológica en proyectos de Business
-Intelligence desarrollados en entornos reales.
+🚀 Posibles mejoras
+Como líneas de mejora futuras, el proyecto podría ampliarse con:
+
+Implementación de seguridad a nivel de filas (RLS)
+Automatización de procesos de actualización
+Incorporación de nuevos indicadores según las necesidades del negocio
+
+
+📌 Este README forma parte de un portfolio profesional y tiene como objetivo documentar el proceso y las decisiones técnicas de un proyecto de Business Intelligence desarrollado con Power BI.
