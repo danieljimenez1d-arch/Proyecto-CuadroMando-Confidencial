@@ -1,4 +1,8 @@
 
+📌 Nota  
+ Este portfolio se encuentra en evolución y se irá ampliando progresivamente.  
+ El objetivo actual es documentar el proceso y las decisiones técnicas del proyecto.
+
 📊 Power BI Portfolio
 Este repositorio recoge un proyecto de Business Intelligence desarrollado en Power BI, documentado con un enfoque profesional y orientado a proceso. El objetivo de este portfolio es explicar cómo se abordó el proyecto, qué decisiones se tomaron y qué conocimientos se aplicaron a lo largo de su desarrollo.
 El proyecto está basado en un entorno real, pero por motivos de confidencialidad no se incluyen datos, capturas del informe ni archivos .pbix. La documentación se centra en el método de trabajo y el razonamiento técnico, no en los datos en sí.
